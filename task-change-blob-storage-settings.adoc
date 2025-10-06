@@ -1,0 +1,86 @@
+---
+sidebar: sidebar 
+permalink: task-change-blob-storage-settings.html 
+keywords: blob storage, blob working environment, azure blob storage accounts, azure blob working environment, system 
+summary: 一旦您的 Azure Blob 存储系统在“系统”页面中可用，您就可以直接从NetApp控制台更改某些存储帐户属性。 
+---
+= 在NetApp控制台中更改 Azure Blob 存储帐户设置
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+一旦您的 Azure Blob 存储系统在“系统”页面中可用，您就可以直接从NetApp控制台更改某些存储帐户属性。
+
+请注意，您无法更改存储帐户名称、Azure 区域或存储的性能类型。
+
+您可以更改的存储帐户属性包括：
+
+* 存储帐户的订阅和资源组。
+* 添加、更改或删除添加到存储帐户的对象的标签。
+* 添加到存储帐户的新对象是否加密，以及用于加密的选项。
+
+
+您可以通过选择image:button-horizontal-more.gif["三个点更多按钮"]用于存储帐户。
+
+image:screenshot-edit-azure-blob-storage.png["显示如何从控制台编辑存储帐户属性的屏幕截图。"]
+
+
+
+== 更改项目详细信息
+
+在“项目详细信息”部分，您可以更改存储帐户的订阅和资源组。
+
+[cols="25,75"]
+|===
+| 字段 | 描述 
+
+
+| 订阅 | 为存储帐户选择不同的 Azure 订阅。 
+
+
+| 资源组  a| 
+为存储帐户选择不同的资源组。
+
+https://learn.microsoft.com/en-us/azure/azure-resource-manager/management/manage-resource-groups-portal["了解有关资源组的详细信息"^] 。
+
+|===
+选择“*保存*”将更改保存到存储帐户。
+
+
+
+== 添加或更改存储帐户中对象的标签
+
+在_Tags_部分，您最多可以添加 10 个标签键/值对，或者您可以更改或删除标签键/值对。当对象添加到存储帐户时，标签就会应用于对象。如果您想添加更多标签，请选择*添加新标签*。
+
+https://learn.microsoft.com/en-us/azure/storage/blobs/storage-manage-find-blobs["从 Microsoft 文档中了解有关标记的更多信息"^] 。
+
+选择“*保存*”将更改保存到存储帐户。
+
+
+
+== 更改加密设置
+
+在“加密”部分中，您可以更改要使用的数据加密类型，以保护对存储帐户中数据的访问。
+
+[cols="25,75"]
+|===
+| 数据加密类型 | 描述 
+
+
+| Microsoft 管理的密钥 | 默认情况下，使用 Microsoft 管理的加密密钥来加密您的数据。 
+
+
+| 客户管理的密钥  a| 
+您可以使用自己的客户管理密钥进行数据加密，而不是使用默认的 Microsoft 管理加密密钥。如果您计划使用自己的客户管理密钥，则需要已经创建了它们，以便您可以在此页面中选择密钥保管库和密钥。
+
+密钥可以与存储帐户位于同一订阅中，也可以选择不同的订阅。
+
+|===
+请参阅 Microsoft Azure 文档 https://learn.microsoft.com/en-us/azure/storage/common/storage-service-encryption["有关 Microsoft 管理密钥的更多信息"^]， 和 https://learn.microsoft.com/en-us/azure/storage/common/customer-managed-keys-overview["有关客户管理密钥的更多信息"^]。
+
+选择“*保存*”将更改保存到存储帐户。

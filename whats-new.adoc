@@ -1,0 +1,41 @@
+---
+sidebar: sidebar 
+permalink: whats-new.html 
+keywords: 'what"s new, features, new, release notes, limitations, known issues, enhancements, fixes' 
+summary: 了解NetApp控制台中 Azure Blob 存储的新功能。 
+---
+= NetApp控制台中 Azure Blob 存储的新增功能
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+了解NetApp控制台中 Azure Blob 存储的新功能。
+
+
+
+== 2025年10月6日
+
+
+
+=== BlueXP现在是NetApp控制台
+
+BlueXP已重新命名并重新设计，以更好地反映其在管理数据基础设施中的作用。
+
+NetApp控制台提供企业级跨本地和云环境的存储和数据服务的集中管理，提供实时洞察、更快的工作流程和简化的管理。
+
+有关更改的详细信息，请参阅 https://docs.netapp.com/us-en/bluexp-relnotes/index.html["NetApp控制台发行说明"]。
+
+
+
+== 2023年6月5日
+
+
+
+=== 能够从BlueXP添加新的存储帐户
+
+您已经能够在BlueXP Canvas 上查看 Azure Blob 存储很长一段时间了。现在您可以直接从BlueXP添加新的存储帐户并更改现有存储帐户的属性。xref:../task-add-blob-storage.html[了解如何添加新的 Azure Blob 存储帐户] 。

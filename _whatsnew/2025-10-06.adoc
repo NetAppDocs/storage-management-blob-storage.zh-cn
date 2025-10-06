@@ -1,0 +1,13 @@
+= BlueXP现在是NetApp控制台
+:allow-uri-read: 
+
+
+
+
+=== BlueXP现在是NetApp控制台
+
+BlueXP已重新命名并重新设计，以更好地反映其在管理数据基础设施中的作用。
+
+NetApp控制台提供企业级跨本地和云环境的存储和数据服务的集中管理，提供实时洞察、更快的工作流程和简化的管理。
+
+有关更改的详细信息，请参阅 https://docs.netapp.com/us-en/bluexp-relnotes/index.html["NetApp控制台发行说明"]。

@@ -1,0 +1,32 @@
+---
+indexpage:
+  title: Azure Blob 存储文档
+  summary: 开始通过NetApp控制台使用 Azure Blob 存储。
+  keywords: bluexp, documentation, storage, storage management, azure blob, netapp
+    console
+  lead: 开始通过NetApp控制台使用 Azure Blob 存储。
+  tiles:
+  - title: 开始使用
+    links:
+    - title: 查看 Azure Blob 存储帐户
+      url: task-view-azure-blob-storage.html
+  - title: 管理 Azure Blob 存储帐户
+    links:
+    - title: 添加 Blob 存储帐户
+      url: task-add-blob-storage.html
+    - title: 更改存储帐户设置
+      url: task-change-blob-storage-settings.html
+    - title: 将NetApp数据服务与 Azure Blob 存储结合使用
+      url: task-blob-enable-data-services.html
+  - title: 更多信息
+    links:
+    - title: 用于控制台外管理的 Azure Blob 存储文档
+      url: https://learn.microsoft.com/en-us/azure/storage/blobs/storage-blobs-introduction
+  - title: 博客和社区
+    links:
+    - title: NetApp控制台
+      url: https://www.netapp.com/console
+    - title: NetApp数据服务
+      url: https://www.netapp.com/data-services/
+    - title: NetApp 社区
+      url: https://community.netapp.com/

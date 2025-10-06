@@ -1,0 +1,103 @@
+---
+sidebar: sidebar 
+permalink: task-add-blob-storage.html 
+keywords: blob storage, blob working environment, azure blob storage accounts, azure blob working environment, add storage accounts, netapp console, system 
+summary: 一旦您的 Azure Blob 存储系统在NetApp控制台系统页面中可用，您就可以直接从控制台添加其他存储帐户。 
+---
+= 在NetApp控制台中添加 Azure Blob 存储帐户
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+一旦您的 Azure Blob 存储系统在NetApp控制台系统页面中可用，您就可以直接从控制台添加其他存储帐户。
+
+.步骤
+. 在“系统”页面中，选择 Azure Blob 存储系统以查看其概览页面。
+. 选择“添加存储帐户”。
++
+image:screenshot-add-blob-storage-button.png["显示 Azure Blob 存储系统的详细信息和添加存储帐户按钮的屏幕截图。"]
+
++
+将显示“添加存储帐户”页面。
+
++
+image:screenshot-add-blob-storage.png["显示“添加存储帐户”页面的屏幕截图，以便您可以创建自己的 Azure Blob 存储帐户。"]
+
+. 在“项目详情”部分输入所需信息。
++
+[cols="25,75"]
+|===
+| 字段 | 描述 
+
+
+| 订阅 | 为新的存储帐户选择 Azure 订阅。 
+
+
+| 资源组  a| 
+为此存储帐户选择一个现有的资源组。
+
+https://learn.microsoft.com/en-us/azure/azure-resource-manager/management/manage-resource-groups-portal["了解有关资源组的详细信息"^] 。
+
+|===
+. 在“实例详细信息”部分中，输入存储帐户的名称，并选择要创建存储帐户的区域（或多个区域）。
++
+[cols="25,75"]
+|===
+| 字段 | 描述 
+
+
+| 存储帐户名称 | 输入要用于存储帐户的名称。名称长度必须介于 3 到 24 个字符之间，并且只能包含数字和小写字母。 
+
+
+| Azure 区域  a| 
+从列表中选择将创建存储帐户的区域。
+
+为您的存储帐户选择适当的区域。 https://learn.microsoft.com/en-us/azure/availability-zones/az-overview["有关 Azure 区域和可用区域的信息，请参阅 Microsoft 文档"^] 。
+
+并非所有区域都支持所有类型的存储帐户或冗余配置。 https://learn.microsoft.com/en-us/azure/storage/common/storage-redundancy["有关 Azure 存储冗余的信息，请参阅 Microsoft 文档"^] 。
+
+此外，地区的选择也会对账单产生影响。 https://learn.microsoft.com/en-us/azure/storage/common/storage-account-overview#storage-account-billing["有关 Azure 存储帐户计费的信息，请参阅 Microsoft 文档"^] 。
+
+
+
+| 表演类型  a| 
+选择您是否要使用*标准*或*高级*性能存储。 https://learn.microsoft.com/en-us/azure/storage/common/storage-account-overview#types-of-storage-accounts["有关存储帐户类型的信息，请参阅 Microsoft 文档"^] 。
+
+** _标准_性能用于通用 v2 存储帐户。大多数情况下建议使用这种类型的帐户。
+** _Premium_ 性能用于需要低延迟的场景。有三种类型的高级存储帐户可用：块 blob、文件共享和页 blob。
+
+
+|===
+. 在_Tags_部分，您最多可以输入 10 个标签键/值对来对资源进行分组。
++
+标签是可用于对资源进行分组以识别应用程序、环境、区域、云提供商等的元数据。您可以向存储帐户添加标签，以便在将对象添加到存储帐户时将标签应用于对象。
+
++
+控制台创建的新存储帐户中默认禁用标签。 https://learn.microsoft.com/en-us/azure/storage/blobs/storage-manage-find-blobs["了解有关标记的更多信息"^] 。
+
+. 在“加密”部分中，选择要用于保护对存储帐户中数据的访问的数据加密类型。
++
+[cols="25,75"]
+|===
+| 数据加密类型 | 描述 
+
+
+| Microsoft 管理的密钥 | 默认情况下，使用 Microsoft 管理的加密密钥来加密您的数据。 
+
+
+| 客户管理的密钥  a| 
+您可以使用自己的客户管理密钥进行数据加密，而不是使用默认的 Microsoft 管理加密密钥。如果您计划使用自己的客户管理密钥，则需要已经创建了它们，以便您可以在此页面中选择密钥保管库和密钥。
+
+密钥可以与存储帐户位于同一订阅中，也可以选择不同的订阅。
+
+|===
++
+请参阅 Microsoft Azure 文档 https://learn.microsoft.com/en-us/azure/storage/common/storage-service-encryption["有关 Microsoft 管理密钥的更多信息"^]， 和 https://learn.microsoft.com/en-us/azure/storage/common/customer-managed-keys-overview["有关客户管理密钥的更多信息"^]。
+
+. 选择“*添加*”来创建存储桶。
+

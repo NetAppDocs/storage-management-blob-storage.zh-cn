@@ -1,0 +1,39 @@
+---
+settings:
+  name: Azure Blob storage
+  internal:
+    pdf_enabled: true
+  prod:
+    pdf_enabled: true
+    harmony_enabled: false
+  rss_page: whats-new.html
+  langs: zh-cn,us-en,de-de,es-es,fr-fr,it-it,pt-br,ja-jp,ko-kr,zh-tw
+sidebar:
+  entries:
+  - title: Azure Blob 存储文档
+    url: "/index.html"
+  - title: 发行说明
+    url: "/whats-new.html"
+  - title: 开始使用
+    entries:
+    - title: 查看 Azure Blob 存储帐户
+      url: "/task-view-azure-blob-storage.html"
+  - title: 管理 Azure Blob 存储帐户
+    entries:
+    - title: 添加新的存储帐户
+      url: "/task-add-blob-storage.html"
+    - title: 更改存储帐户设置
+      url: "/task-change-blob-storage-settings.html"
+    - title: 将NetApp数据服务与 Azure Blob 存储结合使用
+      url: "/task-blob-enable-data-services.html"
+  - title: 知识和支持
+    entries:
+    - title: 注册以获得支持
+      url: "/task-support-registration.html"
+    - title: 获取帮助
+      url: "/task-get-help.html"
+  - title: 法律声明
+    url: "/legal-notices.html"
+product-family:
+  name: Storage Management
+  repo: storage-management-family

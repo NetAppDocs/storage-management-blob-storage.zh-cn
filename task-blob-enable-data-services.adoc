@@ -1,0 +1,43 @@
+---
+sidebar: sidebar 
+permalink: task-blob-enable-data-services.html 
+keywords: blob storage, blob working environment, azure blob storage accounts, azure blob working environment, system 
+summary: 在BlueXP中发现 Azure Blob 存储帐户后，您可以使用NetApp数据服务进行备份、分层和数据同步。 
+---
+= 将NetApp数据服务与 Azure Blob 存储结合使用
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+在NetApp控制台中发现 Azure Blob 存储帐户后，您可以使用NetApp数据服务进行备份、分层和数据同步。
+
+* 使用* NetApp Backup and Recovery* 将数据从本地ONTAP和Cloud Volumes ONTAP系统备份到 Azure Blob 存储。
++
+首先，导航至“系统”页面。将本地ONTAP或Cloud Volumes ONTAP系统拖放到 Azure Blob 存储系统上。
+
++
+https://docs.netapp.com/us-en/bluexp-backup-recovery/concept-ontap-backup-to-cloud.html["了解有关将ONTAP数据备份到 Azure Blob 存储的更多信息"^] 。
+
+* 使用 * NetApp Cloud Tiering* 将非活动数据从本地ONTAP集群分层到 Azure Blob 存储。
++
+首先，导航至“系统”页面。将本地ONTAP系统拖放到 Azure Blob 存储系统上。
+
++
+https://docs.netapp.com/us-en/bluexp-tiering/task-tiering-onprem-azure.html["了解有关将ONTAP数据分层到 Azure Blob 存储的更多信息"^] 。
+
+* 使用* NetApp Copy and Sync* 将数据同步到 Azure Blob 存储帐户或从 Azure Blob 存储帐户同步数据。
++
+首先，导航至“系统”页面。将源系统拖放到目标系统上。您的 Azure Blob 存储系统可以是源也可以是目标。
+
++
+您还可以选择您的 Azure Blob 存储系统，然后从服务面板中选择*复制和同步*，以将数据同步到 Azure Blob 存储帐户或从 Azure Blob 存储帐户同步数据。
+
++
+https://docs.netapp.com/us-en/bluexp-copy-sync/concept-cloud-sync.html["了解有关复制和同步的更多信息"^] 。
+
+
