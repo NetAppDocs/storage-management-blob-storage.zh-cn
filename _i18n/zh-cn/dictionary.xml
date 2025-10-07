@@ -2,12 +2,10 @@
 <blocks>
   <block id="f9037e3eb23130835367334e3aa5a34b" category="doc">能够从BlueXP添加新的存储帐户</block>
   <block id="7e4c7c60d975edb27a163364c9868139" category="inline-xref-macro">了解如何添加新的 Azure Blob 存储帐户</block>
-  <block id="f85f92208aecee0545b9eedb64b14672" category="paragraph">您已经能够在BlueXP Canvas 上查看 Azure Blob 存储很长一段时间了。现在您可以直接从BlueXP添加新的存储帐户并更改现有存储帐户的属性。<block ref="127c39654391bed812f2268282064990" category="inline-xref-macro-rx"></block> 。</block>
   <block id="bc2fe31b1e2682a9a79513d792e9c721" category="doc">BlueXP现在是NetApp控制台</block>
   <block id="745be0d280d894f70c3f88e76f519456" category="paragraph">BlueXP已重新命名并重新设计，以更好地反映其在管理数据基础设施中的作用。</block>
   <block id="7e4f7c37590688c797d9b40e3a3423e3" category="paragraph">NetApp控制台提供企业级跨本地和云环境的存储和数据服务的集中管理，提供实时洞察、更快的工作流程和简化的管理。</block>
   <block id="2ef9d641d45afe99b74ad6f9a9f797ad" category="inline-link">NetApp控制台发行说明</block>
-  <block id="9d88b780dd182bc558e5dd7624d35838" category="paragraph">有关更改的详细信息，请参阅<block ref="857ac87b6d807bceb0af9d0ff774da69" category="inline-link-rx"></block>。</block>
   <block id="d41d8cd98f00b204e9800998ecf8427e" category="summary"></block>
   <block id="30d965eef5ba25c6b9998ae38270b43e" category="doc">法律声明</block>
   <block id="e9c44bbfd795a5d63d74c6a77afee70d" category="paragraph">法律声明提供对版权声明、商标、专利等的访问。</block>
@@ -28,7 +26,6 @@
   <block id="c0227cef6f07a8cd2ac72f2945b031aa" category="section-title">开源</block>
   <block id="9b73989307c1975dfa4d5e1581e4afe8" category="paragraph">通知文件提供有关NetApp软件中使用的第三方版权和许可的信息。</block>
   <block id="50dbf63cd0ab8144a287e5cd6a0f1de2" category="inline-link">NetApp控制台通知</block>
-  <block id="e672b1ea49afca81ea77f91f12f606ea" category="paragraph"><block ref="e672b1ea49afca81ea77f91f12f606ea" category="inline-link-rx"></block></block>
   <block id="3572522b9cf12bb382fd0920f5745fd0" category="summary">一旦您的 Azure Blob 存储系统在NetApp控制台系统页面中可用，您就可以直接从控制台添加其他存储帐户。</block>
   <block id="98249a942e9f70229e82c312e65b0c3e" category="doc">在NetApp控制台中添加 Azure Blob 存储帐户</block>
   <block id="f3a29486bed19a90f2da6d007818b427" category="list-title">步骤</block>
@@ -79,22 +76,18 @@
   <block id="518fa4ed7cef478f91e710fa235bf797" category="inline-link">有关客户管理密钥的更多信息</block>
   <block id="1c996ef0ac245038c210c7f6136b7a5f" category="paragraph">请参阅 Microsoft Azure 文档<block ref="00b60a199735a6cd55c721820633fd18" category="inline-link-rx"></block>， 和<block ref="179ce78dfc1dee8d313bdcb48c576259" category="inline-link-rx"></block>。</block>
   <block id="4075c13a9dc3ab5fe72584ab95dcb280" category="list-text">选择“*添加*”来创建存储桶。</block>
-  <block id="743c7f25a48e123c93c9fc954e6a69df" category="summary">在BlueXP中发现 Azure Blob 存储帐户后，您可以使用NetApp数据服务进行备份、分层和数据同步。</block>
   <block id="6650dfeb4f458c61b2949845625bd24c" category="doc">将NetApp数据服务与 Azure Blob 存储结合使用</block>
   <block id="1b2bcb14630e84f98ecf8fc8ba9e1bd7" category="paragraph">在NetApp控制台中发现 Azure Blob 存储帐户后，您可以使用NetApp数据服务进行备份、分层和数据同步。</block>
   <block id="8244f0a4bfcb8635db2f91ef5aa1b9eb" category="list-text">使用* NetApp Backup and Recovery* 将数据从本地ONTAP和Cloud Volumes ONTAP系统备份到 Azure Blob 存储。</block>
   <block id="de91c1448816840d85691a77ebd16003" category="paragraph">首先，导航至“系统”页面。将本地ONTAP或Cloud Volumes ONTAP系统拖放到 Azure Blob 存储系统上。</block>
   <block id="d86f0808bf63647bc6d2990fee15f32a" category="inline-link">了解有关将ONTAP数据备份到 Azure Blob 存储的更多信息</block>
-  <block id="95af42d58740cb6ef9743795caced435" category="paragraph"><block ref="a81ea9edabd79d5dc24a3011f7940a63" category="inline-link-rx"></block> 。</block>
   <block id="95578947246790f85684248eaa680963" category="list-text">使用 * NetApp Cloud Tiering* 将非活动数据从本地ONTAP集群分层到 Azure Blob 存储。</block>
   <block id="565724b78e68c2fe59a7fe137cb67cf4" category="paragraph">首先，导航至“系统”页面。将本地ONTAP系统拖放到 Azure Blob 存储系统上。</block>
   <block id="683411769b2e2b5ee5d1c8ac476393d4" category="inline-link">了解有关将ONTAP数据分层到 Azure Blob 存储的更多信息</block>
-  <block id="f8f7dea78fa7518dbbdf96d1aafadc4b" category="paragraph"><block ref="55d91164053c84267300c3db4638255c" category="inline-link-rx"></block> 。</block>
   <block id="fbf760e5fd50e3458e72728d6cfcdd8c" category="list-text">使用* NetApp Copy and Sync* 将数据同步到 Azure Blob 存储帐户或从 Azure Blob 存储帐户同步数据。</block>
   <block id="92f68f59c4c56b8e291f44d42de2d134" category="paragraph">首先，导航至“系统”页面。将源系统拖放到目标系统上。您的 Azure Blob 存储系统可以是源也可以是目标。</block>
   <block id="ae6c3cec15a4ac482ea9a67236df0484" category="paragraph">您还可以选择您的 Azure Blob 存储系统，然后从服务面板中选择*复制和同步*，以将数据同步到 Azure Blob 存储帐户或从 Azure Blob 存储帐户同步数据。</block>
   <block id="457a1cf5fd2ca976e622a9a914d24bad" category="inline-link">了解有关复制和同步的更多信息</block>
-  <block id="390b3380d403721d5ae98adafc131592" category="paragraph"><block ref="f9b2d2345f65b81f6f23df634577d11f" category="inline-link-rx"></block> 。</block>
   <block id="3cdcdc716a6a72fc6747db0e7fc271df" category="summary">一旦您的 Azure Blob 存储系统在“系统”页面中可用，您就可以直接从NetApp控制台更改某些存储帐户属性。</block>
   <block id="326e8a2426191fe14f044e4c0c5c2763" category="doc">在NetApp控制台中更改 Azure Blob 存储帐户设置</block>
   <block id="e4d20ea28e0dccf4440f8908211c905a" category="paragraph">请注意，您无法更改存储帐户名称、Azure 区域或存储的性能类型。</block>
@@ -204,7 +197,6 @@
   <block id="9d25e9a3093ef1c625de6c96383dadc4" category="paragraph">在 Azure 中安装控制台代理后， NetApp控制台可以自动发现有关安装了控制台代理的 Azure 订阅中的 Azure 存储帐户的信息。  Azure Blob 系统已添加到系统页面，以便您可以查看此信息。</block>
   <block id="3decc2b25551b75d7f00f21ece6c37ea" category="paragraph">您可以查看有关 Azure 存储帐户的详细信息，包括位置、资源组、已用容量等。这些帐户可用作NetApp备份和恢复、 NetApp复制和同步以及NetApp Cloud Tiering 操作的目标。</block>
   <block id="947d9294996f8955f80ff03bc9f99324" category="inline-link">安装控制台代理</block>
-  <block id="e305470faa4bea1f1f5144045f2855a6" category="list-text"><block ref="fa576e0e09315256214eb07edac2adf4" category="inline-link-rx"></block>在您想要查看 Azure Blob 存储帐户的 Azure 帐户中。</block>
   <block id="59bd34e0021703b8d6db7819960639e9" category="list-text">从导航菜单中，选择*存储&gt;系统*。</block>
   <block id="a447fa14efc2bf91db07251c38fac4e1" category="paragraph">不久之后您应该会自动看到 Azure Blob 存储系统。</block>
   <block id="86224655d8b1f0ade9e896b9fcf0b60c" category="inline-image-macro">Azure Blob 存储系统的屏幕截图。</block>
@@ -241,4 +233,11 @@
   <block id="baf9c0d022fa9e7a85fa77eeb954adbd" category="sidebar">添加新的存储帐户</block>
   <block id="0143afd4b3b57a4efca22155b835b7f2" category="sidebar">更改存储帐户设置</block>
   <block id="0adc03eac86772ad2c75c8f140be417e" category="sidebar">知识和支持</block>
+  <block id="986ddb500dcbfc5d9995ab28bc27a477" category="paragraph">您已经能够在BlueXP Canvas 上查看 Azure Blob 存储很长一段时间了。现在您可以直接从BlueXP添加新的存储帐户并更改现有存储帐户的属性。<block ref="da5959ee38843473d9246184c88364f6" category="inline-link-macro-rx"></block> 。</block>
+  <block id="7c2f2b72d5ae6fd05d7d6047507f2af7" category="paragraph">有关更改的详细信息，请参阅<block ref="55233a601a39d3cf31ec58df3f760d9b" category="inline-link-rx"></block>。</block>
+  <block id="c87093fc5ce0aab848deaeae14c761b9" category="paragraph"><block ref="c87093fc5ce0aab848deaeae14c761b9" category="inline-link-rx"></block></block>
+  <block id="0acdb79db506f71e141b4b858a143a05" category="paragraph"><block ref="ac49df85e776f3658144e4570d832c99" category="inline-link-rx"></block> 。</block>
+  <block id="5de458d476f48f2b48be07aaa2ed728d" category="paragraph"><block ref="fa6adc59d924d47a66d1ce7306342ebd" category="inline-link-rx"></block> 。</block>
+  <block id="b7a9d1a982d7ad533f67bfcc152c0150" category="paragraph"><block ref="eb3ec74247e0c67b8ffacea7d75f8527" category="inline-link-rx"></block> 。</block>
+  <block id="de55cf1dcb46cf880eafc22afc211f46" category="list-text"><block ref="2ffbb079efc75d97cc35ff4a4c0cfde8" category="inline-link-rx"></block>在您想要查看 Azure Blob 存储帐户的 Azure 帐户中。</block>
 </blocks>

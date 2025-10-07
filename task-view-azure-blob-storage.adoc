@@ -19,7 +19,7 @@ summary: 在 Azure 中安装控制台代理后， NetApp控制台可以自动发
 您可以查看有关 Azure 存储帐户的详细信息，包括位置、资源组、已用容量等。这些帐户可用作NetApp备份和恢复、 NetApp复制和同步以及NetApp Cloud Tiering 操作的目标。
 
 .步骤
-. https://docs.netapp.com/us-en/bluexp-setup-admin/task-quick-start-connector-azure.html["安装控制台代理"^]在您想要查看 Azure Blob 存储帐户的 Azure 帐户中。
+. https://docs.netapp.com/us-en/console-setup-admin/task-quick-start-connector-azure.html["安装控制台代理"^]在您想要查看 Azure Blob 存储帐户的 Azure 帐户中。
 . 从导航菜单中，选择*存储>系统*。
 +
 不久之后您应该会自动看到 Azure Blob 存储系统。
